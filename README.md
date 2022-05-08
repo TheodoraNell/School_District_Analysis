@@ -19,7 +19,7 @@ The School Summary is most impacted by the removal of the data. Large decreases 
 ![school_summary_original](https://user-images.githubusercontent.com/99051640/167317078-5a06e362-9ce6-47a8-b1d8-c77b58937ce9.png)
 ![school_summary_challenge](https://user-images.githubusercontent.com/99051640/167317080-473190e2-f322-4c26-b57f-13617bbc5f55.png)
 
-To adjust for the replaced values when calculating the passing percentages, the scores for 10th-12th grade students were calculated separately and then replaced in the dataframe using the `loc()` method. After adjusting, the school summary shows far less impact from the data removal with most values only changing by .1% at the most
+To adjust for the replaced values when calculating the passing percentages, the scores for 10th-12th grade students are calculated separately and then replaced in the dataframe using the `loc()` method. After adjusting, the school summary still shows impact from the data removal, though far less with values only changing by tenths of a percent at most.
 ![school_summary_original](https://user-images.githubusercontent.com/99051640/167317078-5a06e362-9ce6-47a8-b1d8-c77b58937ce9.png)
 ![school_summary_adjusted](https://user-images.githubusercontent.com/99051640/167318160-5b88b585-fbed-45bf-86aa-59f9db345419.png)
 
@@ -34,15 +34,15 @@ Granted the values for passing percentages are adjusted, there is no effect on t
 
 The only change is the value for 9th Grade students which corresponds to the assigned grade values of `'NaN'`.
 ![math_by_grade_original](https://user-images.githubusercontent.com/99051640/167317758-d90ac4b3-9301-4d23-a69b-4c1e5e4d5e73.png)
-![math_by_grade_challenge](https://user-images.githubusercontent.com/99051640/167317498-3d6a3875-50e1-4357-a254-268710e307b5.png)
-
 ![reading_by_grade_original](https://user-images.githubusercontent.com/99051640/167317752-b079016d-8311-403e-b274-eff467a50e3a.png)
+
+![math_by_grade_challenge](https://user-images.githubusercontent.com/99051640/167317498-3d6a3875-50e1-4357-a254-268710e307b5.png)
 ![reading_by_grade_challenge](https://user-images.githubusercontent.com/99051640/167317510-2c9206dd-d2da-44f1-8df9-517bc03a34f6.png)
 
 - ### Impact on scores by school spending
 
 There is almost no visible impact on this metric
-![spending_summary_original](https://user-images.githubusercontent.com/99051640/167317689-eb25b0e6-dc88-4d14-bf02-6aa2d25b2f17.png)
+![spending_summary_original](https://user-images.githubusercontent.com/99051640/167319487-de4d7634-92ae-4d47-8ae9-81df41ff127b.png)
 ![spending_summary_challenge](https://user-images.githubusercontent.com/99051640/167317692-f296904e-2439-428d-a395-8c40df3d15cf.png)
 
 - ### Scores by school size
@@ -59,3 +59,8 @@ There is no visible change in these metrics
 
 ## Summary
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+The four most significant changes in the udated school district analysis are:
+- Average Math and Reading scores
+- Percent Passing Math and Reading Scores
+- Overall Percent Passing
+- District Average Math Score: this decrease is seemingly insignificant since it is only .1%, but with rounding it appears to be a 1% difference
