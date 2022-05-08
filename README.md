@@ -9,7 +9,7 @@ The purpose of this analysis is to examine two sets of school and student data a
 The data that was removed for the repeated analysis consists of math and reading scores for all 9th Grade students at Thomas High School. This removal was by request due to suspected academic dishonesty to which the extent is unknown. Each datapoint removed was replaced with `'NaN'`. In this section, the results of the repeated analysis will be diplayed using images. In all instances, the top image shown represents the first analysis and the bottom image(s) represent the repeated analysis with the replaced datapoints.
 
 - ### Impact on District Summary 
-The district summary remains largely unaffected, the only change being the decrease of "Average Math Score" from 79.0 to 78.9
+The district summary remains largely unaffected, the only change being the decrease of "Average Math Score" from 79.0% to 78.9%
 ![district_summary_original](https://user-images.githubusercontent.com/99051640/167316955-1ab7f642-9dd5-474e-89fb-4acd91877cef.png)
 ![district_summary_challenge](https://user-images.githubusercontent.com/99051640/167316941-40d7488a-cd80-4a46-b829-bf49590924d0.png)
 
@@ -53,7 +53,7 @@ There is no visible change in these metrics
 ## Summary
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 The four most significant changes in the udated school district analysis are:
-- Average Math and Reading scores
-- Percent Passing Math and Reading Scores
-- Overall Percent Passing
-- District Average Math Score: this decrease is seemingly insignificant since it is only .1%, but with rounding it appears to be a 1% difference
+- **Percent Passing Math and Reading Scores:** 93.3% to 93.2% (math) and 97.3% to 97.0% (reading)
+- **Overall Percent Passing:** 90.9% to 90.6%
+- **Average Math and Reading scores:** 83.42% to 83.35% (math) and 83.84% to 83.89% (reading). These changes were the most interesting given that such a small change in the average math score for one school impacted the average math score for the entire district, shown next. Additionally, the average reading score was the only value to increase in the repeated analysis. 
+- **District Average Math Score:** 79.0% to 78.9%
