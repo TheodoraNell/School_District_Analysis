@@ -29,7 +29,7 @@ Granted the values for passing percentages are adjusted, there is no effect on t
 
 - ### Impact on math and reading scores by grade
 The only change is the value for 9th Grade students which corresponds to the assigned grade values of `'NaN'`.
-![math_by_grade_original](https://user-images.githubusercontent.com/99051640/167317758-d90ac4b3-9301-4d23-a69b-4c1e5e4d5e73.png)
+![math_by_grade_original](https://user-images.githubusercontent.com/99051640/167319832-00cf34d5-63a5-4e46-bcf4-1b1b4f1c0be6.png)
 ![reading_by_grade_original](https://user-images.githubusercontent.com/99051640/167319796-35bd7c5f-0d73-458c-832e-7f88ce9a3e45.png)
 
 ![math_by_grade_challenge](https://user-images.githubusercontent.com/99051640/167317498-3d6a3875-50e1-4357-a254-268710e307b5.png)
