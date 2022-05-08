@@ -24,19 +24,24 @@ It does not, granted they are adjusted:
 
 
 How does replacing the ninth-grade scores affect the following:
+
 Math and reading scores by grade
-![math_by_grade_original](https://user-images.githubusercontent.com/99051640/167317495-5491d8b2-3b6b-4d64-a6f3-44a476214bf9.png)
+![math_by_grade_original](https://user-images.githubusercontent.com/99051640/167317758-d90ac4b3-9301-4d23-a69b-4c1e5e4d5e73.png)
 ![math_by_grade_challenge](https://user-images.githubusercontent.com/99051640/167317498-3d6a3875-50e1-4357-a254-268710e307b5.png)
 
-![reading_by_grade_original](https://user-images.githubusercontent.com/99051640/167317505-249a25d3-d3d6-49e9-9cd3-9abdd03da760.png)
+![reading_by_grade_original](https://user-images.githubusercontent.com/99051640/167317752-b079016d-8311-403e-b274-eff467a50e3a.png)
 ![reading_by_grade_challenge](https://user-images.githubusercontent.com/99051640/167317510-2c9206dd-d2da-44f1-8df9-517bc03a34f6.png)
 
 Scores by school spending
-
 ![spending_summary_original](https://user-images.githubusercontent.com/99051640/167317689-eb25b0e6-dc88-4d14-bf02-6aa2d25b2f17.png)
 ![spending_summary_challenge](https://user-images.githubusercontent.com/99051640/167317692-f296904e-2439-428d-a395-8c40df3d15cf.png)
 
-
 Scores by school size
+![size_summary_original](https://user-images.githubusercontent.com/99051640/167317908-9c8d2731-2480-491d-8cc9-e84e258e38f4.png)
+![spending_summary_challenge](https://user-images.githubusercontent.com/99051640/167317849-562eeef8-541c-44c8-9d3b-e11f81559478.png)
+
 Scores by school type
+![type_summary_original](https://user-images.githubusercontent.com/99051640/167317938-72bc932c-3039-4759-9189-acb0041761f3.png)
+![type_summary_challenge](https://user-images.githubusercontent.com/99051640/167317940-6089eb6b-87e7-4578-b6c5-932bb54f25ba.png)
+
 ## Summary
