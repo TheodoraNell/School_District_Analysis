@@ -2,19 +2,23 @@
 Performing an analysis on school district data using Pandas
 
 ## Overview
-The purpose of this analysis is to examine two sets of school and student data and create a summary of metrics evaluating math/reading performance and school spending. There is a repetition of the analysis using the same script but with the removal of potentially innacurate data. The results are then compared to explore the impact of the questionable data on the overall results. 
+The purpose of this analysis is to examine two sets of school and student data and create a summary of metrics evaluating math/reading performance and school spending based on several factors. There is a repetition of the analysis using the same script but with the removal of potentially innacurate grade data due to suspected academic dishonesty. The results of the analysis compared to explore the impact of the questionable data on the overall results. 
 
 ## Results
 
-How is the district summary affected?
+The data that was removed for the repeated analysis consists of all math and reading scores for 9th Grade students at Thomas High School. All datapoints removed were replaced with `'NaN'`
+
+- ### How is the district summary affected?
 
 ![district_summary_original](https://user-images.githubusercontent.com/99051640/167316955-1ab7f642-9dd5-474e-89fb-4acd91877cef.png)
 ![district_summary_challenge](https://user-images.githubusercontent.com/99051640/167316941-40d7488a-cd80-4a46-b829-bf49590924d0.png)
 
-How is the school summary affected?
+- ### How is the school summary affected?
 
+The School Summary is most impacted by the removal of the data
 ![school_summary_original](https://user-images.githubusercontent.com/99051640/167317078-5a06e362-9ce6-47a8-b1d8-c77b58937ce9.png)
 ![school_summary_challenge](https://user-images.githubusercontent.com/99051640/167317080-473190e2-f322-4c26-b57f-13617bbc5f55.png)
+![school_summary_adjusted](https://user-images.githubusercontent.com/99051640/167318160-5b88b585-fbed-45bf-86aa-59f9db345419.png)
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
@@ -45,3 +49,4 @@ Scores by school type
 ![type_summary_challenge](https://user-images.githubusercontent.com/99051640/167317940-6089eb6b-87e7-4578-b6c5-932bb54f25ba.png)
 
 ## Summary
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
