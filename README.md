@@ -22,7 +22,7 @@ To adjust for the replaced values when calculating the passing percentages, the 
 ![school_summary_original](https://user-images.githubusercontent.com/99051640/167317078-5a06e362-9ce6-47a8-b1d8-c77b58937ce9.png)
 ![school_summary_adjusted](https://user-images.githubusercontent.com/99051640/167318160-5b88b585-fbed-45bf-86aa-59f9db345419.png)
 
-- ### Impact on Thomas High School’s performance relative to the other schools?
+- ### Impact on Thomas High School’s performance relative to the other schools
 Granted the values for passing percentages are adjusted, there is no effect on the relative perfromance of Thomas High School. It remains second on the "Top Schools" list. 
 ![top_schools_original](https://user-images.githubusercontent.com/99051640/167317378-9b5077b8-4ab5-485a-902b-f02a5e78e387.png)
 ![top_schools_challenge](https://user-images.githubusercontent.com/99051640/167317383-005a6322-b0b2-4b2e-9802-df03ca007173.png)
@@ -51,9 +51,9 @@ There is no visible change in these metrics
 ![type_summary_challenge](https://user-images.githubusercontent.com/99051640/167317940-6089eb6b-87e7-4578-b6c5-932bb54f25ba.png)
 
 ## Summary
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-The four most significant changes in the udated school district analysis are:
-- **Percent Passing Math and Reading Scores:** 93.3% to 93.2% (math) and 97.3% to 97.0% (reading)
-- **Overall Percent Passing:** 90.9% to 90.6%
-- **Average Math and Reading scores:** 83.42% to 83.35% (math) and 83.84% to 83.89% (reading). These changes were the most interesting given that such a small change in the average math score for one school impacted the average math score for the entire district, shown next. Additionally, the average reading score was the only value to increase in the repeated analysis. 
+The four most significant changes in the udated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with `NaN`:
+- **Percent passing Math and Reading for Thomas High:** 93.3% to 93.2% (passing math) and 97.3% to 97.0% (passing reading)
+- **Overall percent passing (both math and reading) for Thomas High:** 90.9% to 90.6%
+- **Average Math and Reading scores for Thomas High:** 83.42% to 83.35% (math) and 83.84% to 83.89% (reading).
+    - These changes were the most interesting given that such a small change in the average math score for one school impacted the average math score for the entire district, shown next. Additionally the average reading score was the only value to increase in the repeated analysis. 
 - **District Average Math Score:** 79.0% to 78.9%
