@@ -14,7 +14,7 @@ The district summary remains largely unaffected, the only change being the decre
 ![district_summary_challenge](https://user-images.githubusercontent.com/99051640/167316941-40d7488a-cd80-4a46-b829-bf49590924d0.png)
 
 - ### Impact on School Summary
-The School Summary is most impacted by the removal of the data. Large decreases can initially be seen for Math, Reading, and Overall passing percentages due to replacing the data with `'NaN'`. The columns displaying averages are unafeccted since the `'NaN'` values are not considered as part of the whole. However, they are when calculaing percentages. This is demonstrated below and then corrected for:
+The School Summary is most impacted by the removal of the data. Large decreases can initially be seen for Math, Reading, and Overall passing percentages due to replacing the data with `'NaN'`. The columns displaying averages are unafeccted since the `'NaN'` values are not considered as part of the whole. However, they are still counted when calculaing percentages. The impact of these large decreases can be seen in the data below, it is then corrected for in the next step.
 ![school_summary_original](https://user-images.githubusercontent.com/99051640/167317078-5a06e362-9ce6-47a8-b1d8-c77b58937ce9.png)
 ![school_summary_challenge](https://user-images.githubusercontent.com/99051640/167317080-473190e2-f322-4c26-b57f-13617bbc5f55.png)
 
