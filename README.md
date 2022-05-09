@@ -36,18 +36,18 @@ The only change is the value for 9th Grade students which corresponds to the ass
 ![reading_by_grade_challenge](https://user-images.githubusercontent.com/99051640/167317510-2c9206dd-d2da-44f1-8df9-517bc03a34f6.png)
 
 - ### Impact on scores by school spending
-No visible impact
+No visible impact.
 ![spending_summary_original](https://user-images.githubusercontent.com/99051640/167319487-de4d7634-92ae-4d47-8ae9-81df41ff127b.png)
 ![spending_summary_challenge](https://user-images.githubusercontent.com/99051640/167317692-f296904e-2439-428d-a395-8c40df3d15cf.png)
 
 - ### Scores by school size
-No visible impact
+No visible impact.
 ![size_summary_original](https://user-images.githubusercontent.com/99051640/167317908-9c8d2731-2480-491d-8cc9-e84e258e38f4.png)
 ![size_summary_challenge](https://user-images.githubusercontent.com/99051640/167319298-c4fba750-247d-4187-9023-5f544e915a21.png)
 
 
 - ### Scores by school type
-No visible impact
+No visible impact.
 ![type_summary_original](https://user-images.githubusercontent.com/99051640/167317938-72bc932c-3039-4759-9189-acb0041761f3.png)
 ![type_summary_challenge](https://user-images.githubusercontent.com/99051640/167317940-6089eb6b-87e7-4578-b6c5-932bb54f25ba.png)
 
